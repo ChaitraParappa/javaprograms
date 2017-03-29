@@ -12,7 +12,7 @@ class Factors
        {
       if(isPrime(j))
         {
-         if(j*j<=n)
+         if(n%j==0 && j*j<=n)
         System.out.println(j);
          }
         
